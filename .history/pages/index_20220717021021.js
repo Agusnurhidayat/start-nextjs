@@ -1,18 +1,6 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-///import { Popover, Transition } from '@headlessui/react'
-//import { MenuIcon, XIcon } from '@heroicons/react/outline'
-
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
-
-export default function Example() {
-  return (
-    <div className="relative bg-white overflow-hidden">
+function HomePage() {
+  return <div>
+     <div className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
@@ -150,5 +138,7 @@ export default function Example() {
         />
       </div>
     </div>
-  )
+  </div>
 }
+
+export default HomePage
